@@ -1,0 +1,68 @@
+<!-- Programmer: Junjie Zhao
+Email: jzhao58@u.rochester.edu -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research | Junjie Zhao</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/layout-loader.js" defer></script>
+  <script src="js/research-filter.js" defer></script>
+</head>
+<body data-page="research">
+  <div id="site-header"></div>
+
+  <main class="container">
+    <section class="panel">
+      <h2>Research Interests</h2>
+      <div class="grid-2">
+        <article class="card">
+          <h3>Large Language Model Application</h3>
+          <p>Study how to apply LLM(s) into a specific setting. Investigate how to fine-tune LLM(s) to perform better.</p>
+        </article>
+        <article class="card">
+          <h3>AR/VR Prototyping</h3>
+          <p>Study how to design AR/VR system scientifically. Fill the gap between AR device and research needs.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Selected Papers</h2>
+      <p>Filter papers by topic:</p>
+
+      <div class="filter-controls">
+        <button type="button" class="filter-button active" data-topic="all">All</button>
+        <button type="button" class="filter-button" data-topic="nlp">NLP</button>
+        <button type="button" class="filter-button" data-topic="social computing">Social Computing</button>
+      </div>
+
+      <p id="result-count" class="result-note">Showing 2 papers.</p>
+
+      <div class="grid-2">
+        <article class="card paper-item" data-topic="nlp">
+          <h3>HAL: Inducing Human-likeness in LLMs with Alignment</h3>
+          <p class="meta-line">Venue: arXiv preprint</p>
+          <p class="meta-line">Year: 2026</p>
+          <p class="meta-line">Authors: Masum Hasan, <strong>Junjie Zhao</strong>, Ehsan Hoque</p>
+          <p class="meta-line">Topic: NLP</p>
+          <p class="meta-line">Links: <a href="https://arxiv.org/abs/2601.02813" target="_blank" rel="noopener noreferrer">Paper</a> | <a href="https://github.com/ROC-HCI/hal" target="_blank" rel="noopener noreferrer">Code</a></p>
+        </article>
+        <article class="card paper-item" data-topic="social computing">
+          <h3>DEVISE : Depth-Aware Vegetation Indexing System</h3>
+          <p class="meta-line">Venue: SSRN preprint</p>
+          <p class="meta-line">Year: 2025</p>
+          <p class="meta-line">Authors: Cantay Caliskan, Zhizhuang Chen, Linglan Yang, Mingzhen Zhang, <strong>Junjie Zhao</strong> (alphabetical order)</p>
+          <p class="meta-line">Topic: Social Computing</p>
+          <p class="meta-line">Links: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5371210#paper-references-widget" target="_blank" rel="noopener noreferrer">Paper</a> | <a href="https://github.com/NNyarlathotep/DEVISE" target="_blank" rel="noopener noreferrer">Code</a></p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>
